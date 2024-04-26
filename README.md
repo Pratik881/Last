@@ -49,7 +49,7 @@ Start the server
 ```bash
   npm start
 ```
-##Accessing Application
+Accessing Application
 ```bash
     Frontend URL: http://localhost:<PORT>
     Backend URL: http://localhost:<PORT>
