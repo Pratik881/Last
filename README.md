@@ -2,6 +2,7 @@
 # Project Title
 
 A fullstack Blog tool
+-This project is a fullstack blog tool designed to perfom CRUD operation on the blog.
 
 ## Run Locally
 
