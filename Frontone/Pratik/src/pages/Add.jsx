@@ -1,43 +1,4 @@
-// import React, { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
-// import axios from 'axios';
 
-// const Add = () => {
-//     const [blog, setBlog] = useState({
-//         title: "",
-//         content: ""
-//     });
-
-//     const navigate = useNavigate();
-
-//     const handleChange = (e) => {
-//         setBlog(prev => ({
-//             ...prev,
-//             [e.target.name]: e.target.value
-//         }));
-//     };
-
-//     const handleClick = async (e) => {
-//         e.preventDefault();
-//         try {
-//             await axios.post('http://localhost:5000/posts', blog);
-//             navigate('/');
-//         } catch (err) {
-//             console.log(err.message); // Log error message for better understanding
-//         }
-//     };
-
-//     return (
-//         <div className='form'>
-//             <h1>Add new blog</h1>
-//             <input type='text' placeholder='title' onChange={handleChange} name="title" />
-//             <input type='text' placeholder='content' onChange={handleChange} name="content" />
-//             <button onClick={handleClick}>Add</button>
-//         </div>
-//     );
-// };
-
-// export default Add;
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
