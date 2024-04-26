@@ -1,7 +1,7 @@
 const mongoose=require('mongoose')
 const myConnection=async()=>{
     try{
-        await mongoose.connect('mongodb://localhost:27017/project')
+        await mongoose.connect(process.env.url)
         console.log('Connection successfull')
     }
     catch(err){
