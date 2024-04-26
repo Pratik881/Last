@@ -27,7 +27,7 @@ const Update = () => {
       await axios.put(`http://localhost:5000/posts/${blogId}`, blog);
       navigate('/');
     } catch (err) {
-      console.log(err.message); // Log error message for better understanding
+      console.log(err.message); 
     }
   };
 

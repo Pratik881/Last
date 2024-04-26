@@ -26,7 +26,7 @@ const Add = () => {
       await axios.post('http://localhost:5000/posts', blog);
       navigate('/');
     } catch (err) {
-      console.log(err.message); // Log error message for better understanding
+      console.log(err.message);
     }
   };
 
