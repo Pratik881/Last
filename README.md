@@ -19,8 +19,7 @@ Go to the project directory
 ```
 Frontend
 ```bash
-  cd Frontone
-  cd Pratik
+  cd Frontone/Pratik
 ```
 
 Install dependencies
@@ -50,4 +49,8 @@ Start the server
 ```bash
   npm start
 ```
-
+##Accessing Application
+```bash
+    Frontend URL: http://localhost:<PORT>
+    Backend URL: http://localhost:<PORT>
+```    
